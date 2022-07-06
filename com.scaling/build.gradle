@@ -1,0 +1,31 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'pl.solutions.software.sokolik.bartosz'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'net.javacrumbs.shedlock:shedlock-core:4.38.0'
+    implementation 'org.springframework.boot:spring-boot-starter-batch'
+    implementation 'net.javacrumbs.shedlock:shedlock-spring:4.38.0'
+    implementation 'net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.38.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    implementation 'mysql:mysql-connector-java:8.0.29'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+bootJar {
+    archiveFileName = 'application.jar'
+}
