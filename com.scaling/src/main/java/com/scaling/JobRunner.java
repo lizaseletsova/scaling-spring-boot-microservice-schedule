@@ -30,7 +30,7 @@ public class JobRunner {
 
 
     @Scheduled(cron = "*/1 * * * * *")
-    @SchedulerLock(name = "TaskScheduler_scheduledTask",
+    @SchedulerLock(name = "scheduledTask",
             lockAtLeastFor = "1m", lockAtMostFor = "1m")
     public void run() throws JobInstanceAlreadyCompleteException, JobExecutionAlreadyRunningException, JobParametersInvalidException, JobRestartException {
         jobLauncher.run(job, new JobParametersBuilder().addDate("date", new Date()).toJobParameters());
