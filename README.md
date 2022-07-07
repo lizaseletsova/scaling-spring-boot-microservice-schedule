@@ -1,7 +1,7 @@
 <h2>What problem is being solved?</h2>
-<h3>Spring, by default, cannot handle scheduler synchronization over multiple instances. It executes the jobs simultaneously on every node instead.<h3>
+<p>Spring, by default, cannot handle scheduler synchronization over multiple instances. It executes the jobs simultaneously on every node instead.<p>
 <h2>How do I solve the problem of running a job simultaneously on each node?</h2>
-<h3>ShedLock — a Java library that makes sure our scheduled tasks run only once at the same time and is an alternative to Quartz.</h3>
+<p>ShedLock — a Java library that makes sure our scheduled tasks run only once at the same time and is an alternative to Quartz.</p>
 <h2>Technologies:</h2>
 <h3>
 <ul>
