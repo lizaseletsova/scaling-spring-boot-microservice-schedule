@@ -5,11 +5,11 @@
 <h2>Technologies:</h2>
 <h3>
 <ul>
-<li href="https://docs.oracle.com/en/java/javase/11/core/java-core-libraries-developer-guide.pdf">Java 11</li>
-<li href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">Spring Boot</li>
-<li href="https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html">Spring Batch</li>
-<li href="https://dev.mysql.com/doc/">MySql</li>
-<li href="https://spring.io/projects/spring-batch">Spring Batch</li>
+<li> <a href="https://docs.oracle.com/en/java/javase/11/core/java-core-libraries-developer-guide.pdf">Java 11</a></li>
+<li> <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">Spring Boot</a></li>
+<li> <a href="https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html">Spring Batch</a></li>
+<li> <a href="https://dev.mysql.com/doc/">MySql</a></li>
+<li> <a href="https://spring.io/projects/spring-batch">Spring Batch</a></li>
 </ul>
 <h2>Installation:</h2>
 <h3> These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</h3>
